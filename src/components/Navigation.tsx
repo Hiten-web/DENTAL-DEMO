@@ -41,11 +41,7 @@ export default function Navigation({ currentPage, setCurrentPage }: NavigationPr
   return (
     <header
       id="main-nav-header"
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        isScrolled
-          ? 'bg-white/80 backdrop-blur-md border-b border-slate-200/50 shadow-sm'
-          : 'bg-transparent border-b border-transparent'
-      }`}
+      className="fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-white border-b border-slate-200/50 shadow-sm"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
