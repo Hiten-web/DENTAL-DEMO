@@ -1,0 +1,6 @@
+{
+  "name": "AuraDental",
+  "description": "Next-Gen Dental Care, Focused on You. Premium dental website with before & after gallery and integrated appointment booking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
